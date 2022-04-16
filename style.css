@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+/* top navbar */
+/* left block */
+.nav-f .nav-item {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.nav-f .nav-item span {
+    font-size: 14px;
+}
+
+.nav-f .nav-item:not(:last-child) {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.nav-f .nav-item a {
+    padding: 0;
+}
+
+.nav-f .nav-item:last-child {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* right block */
+.nav-s {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.nav-s .nav-item a {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-s .nav-item span {
+    padding: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* title navigation */
+.title-nav .navbar-brand {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.title-nav ul li {
+    text-align: center;
+    font-weight: 700;
+}
+
+.title-nav ul li button {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.title-nav ul li .a-btn {
+    padding-right: 0 !important;
+}
+
+/* header */
+header {
+    position: relative;
+    background-color: #000000;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .container h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: .3;
+    z-index: 1;
+}
+
+header .container button {
+    font-weight: 700;
+}
+
+/* main */
+/* text field */
+main .screen-one {
+    font-size: 14px;
+}
+
+main .screen-one h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main .screen-one-btn {
+    display: flex;
+    justify-content: center;
+}
+
+main .screen-one-btn button {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* cards field */
+main .screen-one-cards {
+    font-size: 15px;
+}
+
+main .card {
+    border-radius: 10px;
+}
+
+main .cards h3 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main .cards h3:hover {
+    color: #F93154;
+}
+
+/* 8 pic block */
+.pic-block h1 {
+    font-weight: 900;
+}
+
+.pic-block h4 {
+    font-weight: 700;
+}
+
+.pic-block .card:hover {
+    box-shadow: 0px 0px 9px 3px #707070;
+}
+
+/* video & text block */
+.vtblock h1 {
+    font-weight: 900;
+}
+
+.vtblock h6 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.vtblock h2 {
+    font-weight: 900;
+}
+
+.vtblock .grey-block {
+    background: #616161;
+    border-top-left-radius: 40px;
+}
+
+.vtblock .grey-block h3 {
+    font-weight: 700;
+}
+
+.vtblock .grey-block > ul > li > a:hover {
+    text-decoration: underline !important;
+}
+
+.vtblock button {
+    font-weight: 700;
+}
+
+/* carousel */
+.carousel .carousel-item {
+    height: 85vh;
+}
+
+.carousel .carousel-item img {
+    top: 0;
+    left: 0;
+    min-height: 85vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel .carousel-item::before {
+    content: '';
+    background-color: #0000003d;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 85vh;
+}
+
+.carousel .carousel-item h2 {
+    font-weight: 700;
+}
+
+/* three column block */
+.three-column h1 {
+    font-weight: 900;
+}
+
+.three-column h4 {
+    font-weight: 700;
+}
+
+.three-column h4:hover {
+    color: #F93154;
+    cursor: pointer;
+}
+
+/* feedback */
+.feedback .feedback-text h1 {
+    font-weight: 900;
+}
+
+.feedback .feedback-text p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.feedback .feedback-form h2 {
+    font-weight: 900;
+}
+
+.feedback .forms label,
+.feedback .forms select {
+    font-size: 12px;
+}
+
+
+/* newsletter */
+.container .news h1 {
+    font-weight: 900;
+}
+
+/* footer */
+footer h5 {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+footer ul li {
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: #F93154 !important;
+}
+
+footer .addr {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer .logo-footer {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+footer .agreements {
+    font-size: 12px;
+}
+
+footer .agreements a.me:hover {
+    text-decoration: underline !important;
+}
+
+footer .privacy-link {
+    font-style: italic;
+}
+
+footer .privacy-link:hover {
+    color: #F93154 !important;
+}
+
+/* media */
+@media (min-width: 768px) {
+    .three-column .three-column-item h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    header .container h1 {
+        font-size: 4rem;
+    }
+
+    main .screen-one,
+    .pic-block p {
+        font-size: 18px;
+    }
+
+    main .cards h3 {
+        font-size: 20px;
+    }
+}
